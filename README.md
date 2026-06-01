@@ -1,7 +1,7 @@
-Producto academico 01 PROGRAMACIÓN WEB.
+# Producto academico 01 PROGRAMACIÓN WEB.
 Presenta:
-Bendezu Vizarreta Danny fernando.
-para inicial la web, en la terminal “npm run dev” en la carpeta raíz.
+# Bendezu Vizarreta Danny fernando.
+para inicial la web, en la terminal "npm install" y luego “npm run dev” en la carpeta raíz.
 
 # React + Vite
 
