@@ -1,3 +1,8 @@
+producto academico 01 PROGRAMACIÓN WEB
+Presenta:
+Bendezu Vizarreta Danny fernando
+para inicial la web, en la terminal “npm run dev” en la carpeta raíz
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
