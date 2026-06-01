@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", "Arial", sans-serif;
+  background: linear-gradient(145deg, #417fea 0%, #d9e3f0 100%);
+  background-image: url("https://get.wallhere.com/photo/city-sky-clouds-lightning-storm-skyline-evening-horizon-atmosphere-thunder-metropolis-electricity-Tormenta-cloud-rays-thunderstorm-cielo-nubes-daytime-energy-rayos-atmosphere-of-earth-meteorological-phenomenon-cumulus-phenomenon-graciasjuampi-tormentarayada-836050.jpg");
+  min-height: 100vh;
+}
+
+.app-contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background-color: #417fea3c;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  color: #ff0000;
+  letter-spacing: -0.5px;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.05);
+  text-decoration-line: underline;
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.cartas-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .app-contenedor {
+    padding: 1rem;
+  }
+  .app-header h1 {
+    font-size: 1.8rem;
+  }
+}

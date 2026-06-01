@@ -1,0 +1,61 @@
+.person-card {
+  background-color: #f9f9fceb;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  text-align: center;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  width: 260px;
+}
+
+.person-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.person-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+.person-card h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #1e2f5e;
+}
+
+.boton-detalles {
+  background: #2c3e66;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 40px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin: 12px 0;
+  transition: background 0.2s;
+}
+
+.boton-detalles:hover {
+  background: #1a2a4a;
+}
+
+.detalles {
+  background: #eef2ff;
+  border-radius: 16px;
+  padding: 12px;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 0.9rem;
+  border-left: 4px solid #ffb347;
+}
+
+.detalles p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
